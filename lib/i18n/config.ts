@@ -28,10 +28,14 @@ export function localizePath(href: string, locale: Locale): string {
   return `${pathname === "/" ? `/${locale}` : `/${locale}${pathname}`}${rest}`;
 }
 
-/** Splits "/fi/about" into { locale: "fi", path: "/about" }; unprefixed paths are English. */
+/**
+ * Splits "/fi/about" into { locale: "fi", path: "/about" }; unprefixed paths are English.
+ * "/en/..." is also accepted: in production, statically rendered English pages can report their
+ * internal rewritten path (/en) from usePathname instead of the visible URL.
+ */
 export function parsePathname(pathname: string): { locale: Locale; path: string } {
   const [, first, ...rest] = pathname.split("/");
-  if (hasLocale(first) && first !== defaultLocale) {
+  if (hasLocale(first)) {
     return { locale: first, path: `/${rest.join("/")}` };
   }
   return { locale: defaultLocale, path: pathname || "/" };

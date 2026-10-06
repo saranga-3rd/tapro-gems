@@ -5,20 +5,19 @@ import Link from "@/components/i18n/LocaleLink";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import LanguageSwitcher from "@/components/i18n/LanguageSwitcher";
-import { useDictionary, useLocale } from "@/components/i18n/LocaleProvider";
+import { useDictionary } from "@/components/i18n/LocaleProvider";
 import Reveal from "@/components/motion/Reveal";
 import Button from "@/components/ui/Button";
 import Container from "@/components/ui/Container";
 import { getPrimaryNav } from "@/lib/data/navigation";
-import { localizePath } from "@/lib/i18n/config";
+import { parsePathname } from "@/lib/i18n/config";
 import Logo from "./Logo";
 
 export default function Navbar() {
   const pathname = usePathname();
-  const locale = useLocale();
   const { nav } = useDictionary();
   const primaryNav = getPrimaryNav(nav);
-  const isHome = pathname === localizePath("/", locale);
+  const isHome = parsePathname(pathname).path === "/";
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
 
