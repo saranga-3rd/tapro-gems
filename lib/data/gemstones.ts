@@ -49,6 +49,7 @@ export const seedGemstones: GemstoneSummary[] = [
     origin: "Ratnapura, Sri Lanka",
     image: "/Natural Star Sapphire.png",
     gallery: ["/star-sapphire.png"],
+    video: "/videos/web/star-sapphire.mp4",
     certification,
     description:
       "A cornflower-blue star sapphire displaying a sharp six-ray asterism when moved under light, formed naturally over millions of years. Cut en cabochon to showcase its silk inclusions and natural star effect.",
@@ -119,6 +120,22 @@ export const seedGemstones: GemstoneSummary[] = [
     certification,
     description:
       "A luminous golden-yellow sapphire with excellent transparency and a warm, sunlit glow. Cut to a generous oval, this natural Ceylon stone pairs exceptional clarity with lasting, everyday brilliance.",
+  },
+  {
+    id: "8",
+    slug: "cats-eye",
+    name: "Cat's Eye",
+    category: "Rare Gemstone",
+    caratWeight: 5.0, // TODO: confirm the real weight
+    cut: "Cabochon",
+    colour: "Honey Gold",
+    origin: "Sri Lanka",
+    image: "/images/gems/cat-eye.png",
+    gallery: ["/images/gems/cat-eye.png"],
+    video: "/videos/web/cat-eye-video.mp4",
+    certification,
+    description:
+      "A natural cat's eye displaying a sharp, silky band of light that glides across its honey-gold body as the stone is moved. Cut en cabochon to showcase this chatoyant effect, it is one of Sri Lanka's most distinctive and sought-after rare gemstones.",
   },
 ];
 
