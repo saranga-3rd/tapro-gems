@@ -20,7 +20,13 @@ const PUBLIC_DIR = path.join(process.cwd(), "public");
 const toSrc = (file: string) => `/${file.split("/").map(encodeURIComponent).join("/")}`;
 const epoch = new Date(0).toISOString();
 
-/** Jewellery pieces: every image in public/jew. */
+/** "gold-floral-necklace.png" -> "Gold floral necklace". */
+const titleFromFile = (file: string) => {
+  const words = file.replace(/\.[^.]+$/, "").replace(/[-_]+/g, " ").trim();
+  return words.charAt(0).toUpperCase() + words.slice(1);
+};
+
+/** Jewellery pieces: every image in public/jew, titled from its filename. */
 const loadCollections = cache(async (): Promise<MediaItem[]> => {
   const files = await fs.readdir(path.join(PUBLIC_DIR, "jew")).catch(() => [] as string[]);
   return files
@@ -30,7 +36,7 @@ const loadCollections = cache(async (): Promise<MediaItem[]> => {
       id: `collection-${index + 1}`,
       type: "image" as const,
       src: toSrc(`jew/${file}`),
-      title: `Jewellery piece ${index + 1}`,
+      title: titleFromFile(file),
       createdAt: epoch,
     }));
 });
