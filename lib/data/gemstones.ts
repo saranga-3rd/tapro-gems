@@ -76,7 +76,7 @@ export const seedGemstones: GemstoneSummary[] = [
     name: "Alexandrite",
     category: "Rare Gemstone",
     caratWeight: 1.92,
-    cut: "Oval",
+    cut: "Cushion",
     colour: "Teal-Green to Purple-Red",
     origin: "Ratnapura, Sri Lanka",
     image: "/gems/alexandrite.png",
@@ -85,7 +85,7 @@ export const seedGemstones: GemstoneSummary[] = [
     featured: true,
     certification,
     description:
-      "A natural alexandrite celebrated for its dramatic colour change, shifting from teal-green in daylight to a warm purple-red under incandescent light. Among the rarest of all gemstones, this oval-cut stone is a true collector's piece.",
+      "A natural alexandrite celebrated for its dramatic colour change, shifting from teal-green in daylight to a warm purple-red under incandescent light. Among the rarest of all gemstones, this cushion-cut stone is a true collector's piece.",
   },
   {
     id: "6",
@@ -93,7 +93,7 @@ export const seedGemstones: GemstoneSummary[] = [
     name: "Purple Sapphire",
     category: "Sapphire",
     caratWeight: 3.48,
-    cut: "Cushion",
+    cut: "Pendeloque",
     colour: "Violet-Purple",
     origin: "Ratnapura, Sri Lanka",
     image: "/gems/purple-sapphire.png",
@@ -102,7 +102,7 @@ export const seedGemstones: GemstoneSummary[] = [
     featured: true,
     certification,
     description:
-      "A rich violet-purple sapphire with an even, velvety saturation and lively brilliance. Hand-selected in Ratnapura and cut to a cushion shape, it offers a distinctive alternative to the classic blue.",
+      "A rich violet-purple sapphire with an even, velvety saturation and lively brilliance. Hand-selected in Ratnapura and cut to a graceful pendeloque, it offers a distinctive alternative to the classic blue.",
   },
   {
     id: "7",
@@ -110,7 +110,7 @@ export const seedGemstones: GemstoneSummary[] = [
     name: "Yellow Sapphire",
     category: "Sapphire",
     caratWeight: 5.07,
-    cut: "Oval",
+    cut: "Emerald",
     colour: "Golden Yellow",
     origin: "Ratnapura, Sri Lanka",
     image: "/gems/yellow-sapphire.png",
@@ -119,7 +119,7 @@ export const seedGemstones: GemstoneSummary[] = [
     featured: true,
     certification,
     description:
-      "A luminous golden-yellow sapphire with excellent transparency and a warm, sunlit glow. Cut to a generous oval, this natural Ceylon stone pairs exceptional clarity with lasting, everyday brilliance.",
+      "A luminous golden-yellow sapphire with excellent transparency and a warm, sunlit glow. Cut to a classic emerald cut, this natural Ceylon stone pairs exceptional clarity with lasting, everyday brilliance.",
   },
   {
     id: "8",
