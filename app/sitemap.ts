@@ -1,9 +1,7 @@
 import type { MetadataRoute } from "next";
 import { absoluteUrl, localeInfo, locales } from "@/lib/i18n/config";
-import { getGemstones } from "@/lib/store";
+import { getGemstones } from "@/lib/catalog";
 
-// Admin saves call revalidatePath("/sitemap.xml") (lib/admin/actions.ts); this is the fallback
-// for edits made on another instance or outside the admin.
 export const revalidate = 3600;
 
 /** Pages that exist in every language. Each locale gets its own entry with hreflang alternates. */

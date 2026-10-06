@@ -1,13 +1,13 @@
 import fs from "node:fs/promises";
 import path from "node:path";
-import { BlobNotFoundError, BlobPreconditionFailedError, get, put } from "@vercel/blob";
+import { kvCompareAndSet, kvConfigured, kvGet, versionOf } from "@/lib/kv";
 import type { AnnouncedProduct } from "./templates";
 
 /**
  * All newsletter data lives in ONE JSON document (no database):
  *  - local development: data/newsletter.json (git-ignored)
- *  - Vercel: a PRIVATE Blob (private/newsletter-state.json), written with ETag
- *    conditional writes so two serverless instances cannot overwrite each other.
+ *  - Vercel: one key in Upstash Redis, written with compare-and-set so two serverless
+ *    instances cannot overwrite each other.
  * Timestamps are ISO-8601 strings.
  */
 
@@ -86,8 +86,7 @@ export interface StateStorage {
 }
 
 const FILE = path.join(process.cwd(), "data", "newsletter.json");
-const BLOB_PATH = "private/newsletter-state.json";
-const blobConfigured = () => Boolean(process.env.BLOB_READ_WRITE_TOKEN || process.env.BLOB_STORE_ID);
+const KV_KEY = "tapro:newsletter-state";
 
 const fileStorage: StateStorage = {
   async load() {
@@ -105,33 +104,14 @@ const fileStorage: StateStorage = {
   },
 };
 
-const blobStorage: StateStorage = {
+const kvStorage: StateStorage = {
   async load() {
-    try {
-      const result = await get(BLOB_PATH, { access: "private", useCache: false });
-      if (!result || result.statusCode !== 200) return { state: emptyState(), version: null };
-      const text = await new Response(result.stream).text();
-      return { state: { ...emptyState(), ...JSON.parse(text) }, version: result.blob.etag };
-    } catch (error) {
-      if (error instanceof BlobNotFoundError) return { state: emptyState(), version: null };
-      throw error;
-    }
+    const raw = await kvGet(KV_KEY);
+    if (raw === null) return { state: emptyState(), version: null };
+    return { state: { ...emptyState(), ...JSON.parse(raw) }, version: versionOf(raw) };
   },
   async save(state, version) {
-    try {
-      await put(BLOB_PATH, JSON.stringify(state), {
-        access: "private", // subscriber emails must never be publicly readable
-        contentType: "application/json",
-        addRandomSuffix: false,
-        allowOverwrite: version !== null,
-        ...(version ? { ifMatch: version } : {}),
-      });
-    } catch (error) {
-      if (error instanceof BlobPreconditionFailedError) throw new ConflictError();
-      // Two first-time writers: the loser sees "already exists".
-      if (version === null && error instanceof Error && /exist/i.test(error.message)) throw new ConflictError();
-      throw error;
-    }
+    if (!(await kvCompareAndSet(KV_KEY, version, JSON.stringify(state)))) throw new ConflictError();
   },
 };
 
@@ -154,7 +134,7 @@ let override: StateStorage | undefined;
 export function setStorageForTests(storage: StateStorage | undefined) {
   override = storage;
 }
-const storage = () => override ?? (blobConfigured() ? blobStorage : fileStorage);
+const storage = () => override ?? (kvConfigured() ? kvStorage : fileStorage);
 
 // Serialises read-modify-write cycles inside one server instance.
 let queue: Promise<unknown> = Promise.resolve();

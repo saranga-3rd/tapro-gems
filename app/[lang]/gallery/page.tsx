@@ -7,7 +7,7 @@ import Section from "@/components/ui/Section";
 import { hasLocale } from "@/lib/i18n/config";
 import { getDictionary, getDictionaryFor } from "@/lib/i18n/dictionary";
 import { pageAlternates } from "@/lib/i18n/metadata";
-import { getMedia } from "@/lib/store";
+import { getMedia } from "@/lib/catalog";
 
 export async function generateMetadata({ params }: PageProps<"/[lang]/gallery">): Promise<Metadata> {
   const { lang } = await params;

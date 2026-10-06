@@ -3,7 +3,7 @@ import type { GemstoneSummary } from "@/types/gemstone";
 const certification =
   "Sri Lanka Gem & Jewellery Authority certified; GIA certification available on request.";
 
-/** Initial catalogue; seeds the admin-managed store on first run (see lib/store.ts). */
+/** The product catalogue. Add images under public/images/gems and reference them here. */
 export const seedGemstones: GemstoneSummary[] = [
   {
     id: "1",

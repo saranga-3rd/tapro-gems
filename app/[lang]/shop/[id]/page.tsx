@@ -10,7 +10,7 @@ import { categoryLabel } from "@/lib/data/gemstones";
 import { hasLocale } from "@/lib/i18n/config";
 import { getDictionary, getDictionaryFor } from "@/lib/i18n/dictionary";
 import { pageAlternates } from "@/lib/i18n/metadata";
-import { getGemstoneBySlug, getGemstones } from "@/lib/store";
+import { getGemstoneBySlug, getGemstones } from "@/lib/catalog";
 
 export async function generateStaticParams() {
   return (await getGemstones()).map((gemstone) => ({ id: gemstone.slug }));

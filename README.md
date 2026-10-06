@@ -67,38 +67,31 @@ The goal of Tapro Gems is to create a premium European-facing digital experience
 ---
 
 © Tapro Gems
-## Managing images
+## Managing content
 
-Images live in the repository under `public/images`, not in Vercel Blob. Product, gallery and collection records (kept in the admin store) only hold the image *path*.
+There is no admin panel and no Vercel Blob. Content lives in the repository:
+
+- **Products**: edit `lib/data/gemstones.ts` (name, details, image and video paths, `featured`).
+- **Collections page**: every image in `public/jew`.
+- **Gallery page**: every image and video in `public/` (including `public/images/gallery` and `public/videos`), except `public/jew`, `public/images/gems` and `public/images/site`.
 
 **Add an image**
 
-1. Copy the file into the right folder: `public/images/gems`, `public/images/gallery` or `public/images/site`. Use `.webp`, `.avif`, `.jpg` or `.png`, lowercase names without special characters, e.g. `public/images/gems/blue-sapphire-3ct.webp`. Export at the largest size it is shown at; Next.js resizes it per device.
-2. Commit, push and deploy:
+1. Copy the file into `public/images/gems`, `public/images/gallery` or `public/images/site`. Use `.webp`, `.avif`, `.jpg` or `.png` with lowercase names, e.g. `public/images/gems/blue-sapphire-3ct.webp`.
+2. For a product, set its `image` (and `gallery`) in `lib/data/gemstones.ts` to `/images/gems/blue-sapphire-3ct.webp`. Files in `public/images/gallery` appear in the Gallery automatically.
+3. Commit, push and deploy:
    ```bash
-   git add public/images
-   git commit -m "Add blue sapphire image"
+   git add public lib
+   git commit -m "Add blue sapphire"
    git push
    ```
-   Wait for the Vercel deployment to finish. The image is not available on the live site until then.
-3. In the admin panel, edit the gemstone (or add/edit a Gallery or Collections item) and enter the path in the image field, e.g. `/images/gems/blue-sapphire-3ct.webp`. A preview appears; if it says no image was found, the filename is wrong or the deployment has not finished. Gallery image paths can be reordered with the arrows.
 
-**Replace an image**: add the new file under a *new* filename (browsers and the CDN cache old ones), deploy, then change the path in the admin panel.
+**Replace an image**: add the new file under a *new* filename (browsers and the CDN cache old ones), update the path, deploy.
 
-**Remove an image**: first change or remove every record that uses the path in the admin panel, then delete the file from `public/images` in a later commit. Deleting a product or gallery record in the admin never deletes a file from the repository.
+**Remove an image**: remove every reference to it, deploy, then delete the file in a later commit.
 
-Videos are still uploaded in the admin and stored in Vercel Blob, as are the admin store and newsletter state, so `BLOB_READ_WRITE_TOKEN` is still required.
+**Videos** work the same way, in `public/videos` (reference as `/videos/name.mp4`).
 
-### Migrating existing Blob images
+### Newsletter storage
 
-`scripts/migrate-blob-images.mjs` moves images already stored in Blob. It defaults to a dry run and never deletes Blob files or touches the database unless asked:
-
-```bash
-node --env-file=.env.local scripts/migrate-blob-images.mjs                  # dry run: list Blob images and proposed paths
-node --env-file=.env.local scripts/migrate-blob-images.mjs --download       # download + verify into public/images, write migration/blob-image-manifest.json
-# commit, push and deploy public/images and the manifest, then:
-node --env-file=.env.local scripts/migrate-blob-images.mjs --apply --dry-run --site-url https://your-site   # check only
-node --env-file=.env.local scripts/migrate-blob-images.mjs --apply --site-url https://your-site             # back up the store, rewrite verified references
-```
-
-References whose file is missing, invalid or not yet live keep their original Blob URL and are listed in the output.
+Only the newsletter keeps runtime data. Locally it is `data/newsletter.json`; on Vercel add **Upstash Redis** (Storage, Marketplace, free) to the project and redeploy. See `docs/newsletter.md`.

@@ -17,11 +17,11 @@ Brevo marketing campaign to the list → unsubscribe / spam / hard-bounce webhoo
 | Endpoints | `POST /api/newsletter/subscribe`, `POST /api/newsletter/webhook`, `GET /api/cron/newsletter` |
 | Screens | `/newsletter/confirm`, `/newsletter/result` |
 
-**No database.** Locally the data is `data/newsletter.json` (git-ignored). On Vercel the filesystem is read-only, so
-the same JSON is kept in a **private** Vercel Blob (`private/newsletter-state.json`), selected automatically when
-`BLOB_READ_WRITE_TOKEN` is set. Writes use ETag conditional writes plus an in-process lock: if two serverless
-instances write at once, the loser re-reads and re-applies its change. Do **not** use a public Blob for this: the
-code refuses to (it always requests `access: "private"`) so emails can never become publicly readable.
+**No SQL database.** Locally the data is `data/newsletter.json` (git-ignored). On Vercel the filesystem is read-only, so
+the same JSON is kept under one key in Upstash Redis (`tapro:newsletter-state`), selected automatically when
+`UPSTASH_REDIS_REST_URL`/`UPSTASH_REDIS_REST_TOKEN` (or the Marketplace's `KV_REST_API_URL`/`KV_REST_API_TOKEN`) are set.
+Writes use compare-and-set plus an in-process lock: if two serverless instances write at once, the loser re-reads and
+re-applies its change. Redis is private to your account, so emails are never publicly readable.
 This is a good fit for a small list; if you ever reach many thousands of subscribers, move to a real database.
 
 Confirmation is custom double opt-in: a 256-bit random token, only its SHA-256 is stored, 48 h expiry. Opening
@@ -30,21 +30,20 @@ posts. Contacts are added to the Brevo list **only after** confirmation, so the 
 
 ## What counts as a "new publication"
 
-- Only **gemstones** have product pages (`/shop/[slug]`). Every gemstone saved in the admin is live immediately
-  (the CMS has no draft state), so a *newly created* gemstone is the first publication.
-- **Jewellery** (the *Collections* admin) is a bare image gallery with no product pages, names or descriptions,
+- Only **gemstones** have product pages (`/shop/[slug]`). Every gemstone in `lib/data/gemstones.ts` is live once deployed,
+  so a *newly added* gemstone is the first publication.
+- **Jewellery** (the *Collections* page) is a bare image gallery with no product pages, names or descriptions,
   so it is **not** announced. If jewellery products are added later, map them to `AnnouncedProduct` with
   `type: "jewellery"` in `lib/newsletter/products.ts` and include them in `listPublishedProducts`.
 - Product identity is the CMS `id`. `newsletter_products.product_id` is the primary key and `newsletter_jobs.product_id`
   is unique, so edits, rebuilds, retries and concurrent workers cannot announce a product twice. The product row and
   its job are created in one atomic write.
-- Admin create → `after()` runs the worker immediately. The daily cron also rescans the catalogue, so a product whose
-  hook failed is still found.
+- The daily cron rescans the catalogue and announces products it has not seen before.
 
 ### Baseline (first-publication workflow)
 
 The **first worker run** after deployment (the first cron run) records every existing product as `baseline = true` and
-announces nothing. Until that has happened the admin hook enqueues nothing. Run it before publishing your first
+announces nothing. Until that has happened nothing is enqueued. Run it before publishing your first
 "real" new product: `curl -H "Authorization: Bearer $CRON_SECRET" https://<site>/api/cron/newsletter`
 (response shows `"baselined": N`). Products created before that run are treated as existing catalogue.
 
@@ -74,11 +73,8 @@ so it cannot be used to discover who is subscribed.
 
 ## External setup still required
 
-1. **Private Blob store**: your existing `BLOB_READ_WRITE_TOKEN` may belong to a *public* store. If saving fails with an
-   access error, create a second **private** Blob store in Vercel (Storage → Blob → Private) and point
-   `BLOB_READ_WRITE_TOKEN` at it. (The admin content store uses the same token and public access, so check the
-   Vercel docs on whether one store can serve both; if not, tell me and I'll add a separate token variable.)
-2. **Brevo list**: Contacts → Lists → create "Tapro Gems Newsletter" (and a separate *test* list). Put its numeric ID in
+1. **Upstash Redis**: in Vercel, Storage → Marketplace → Upstash Redis (free), connect it to the project and redeploy.
+   2. **Brevo list**: Contacts → Lists → create "Tapro Gems Newsletter" (and a separate *test* list). Put its numeric ID in
    `BREVO_NEWSLETTER_LIST_ID`.
 3. **Sender/domain**: verify `BREVO_SENDER_EMAIL` and authenticate the domain (SPF/DKIM/DMARC) in Brevo. Marketing
    campaigns also need a postal address in the footer (the one from `lib/data/contact.ts` is used; confirm it is correct).
@@ -88,7 +84,7 @@ so it cannot be used to discover who is subscribed.
    the list or blocklists it; both fire the webhook.
 6. **Vercel env vars**: everything in `.env.example` (`SITE_URL`, `CRON_SECRET`, …) for Production (and test values for Preview).
 7. **Cron**: `vercel.json` schedules `/api/cron/newsletter` daily (`0 6 * * *`, the most frequent Hobby plan allows).
-   The admin save also triggers the worker, so the cron is the retry/safety net. On Pro, tighten to e.g. `*/10 * * * *`.
+   On Pro, tighten to e.g. `*/10 * * * *`.
 8. Update the Privacy Policy wording if you want it to mention the newsletter explicitly (section 4 already covers
    marketing emails and unsubscribing).
 
@@ -98,7 +94,7 @@ so it cannot be used to discover who is subscribed.
 2. `npm run dev`; submit your address in the footer. Open the email, press *Confirm subscription*.
    Check the contact now sits in the test list and `data/newsletter.json` shows `"status": "active"`.
 3. Trigger the baseline: `curl -H "Authorization: Bearer $CRON_SECRET" http://localhost:3000/api/cron/newsletter`.
-4. Sign in to `/admin`, create a gemstone. The test list receives one campaign; edit the gemstone — nothing is sent.
+4. Add a gemstone to `lib/data/gemstones.ts` and deploy. The next cron run sends one campaign to the test list; editing an existing gemstone sends nothing.
 5. Click *Unsubscribe* in the campaign; after Brevo's webhook arrives the row becomes `unsubscribed`.
    (Locally, expose the dev server with a tunnel or POST a sample payload with the bearer token.)
 

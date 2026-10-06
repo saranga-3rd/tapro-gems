@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { getDictionary } from "@/lib/i18n/dictionary";
 import { hasLocale } from "@/lib/i18n/config";
 import { pageAlternates } from "@/lib/i18n/metadata";
-import { getGemstones } from "@/lib/store";
+import { getGemstones } from "@/lib/catalog";
 import AppointmentForm from "@/components/sections/appointment/AppointmentForm";
 
 export async function generateMetadata({

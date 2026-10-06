@@ -3,7 +3,7 @@ import Reveal from "@/components/motion/Reveal";
 import RevealGroup from "@/components/motion/RevealGroup";
 import Section from "@/components/ui/Section";
 import { getDictionary } from "@/lib/i18n/dictionary";
-import { getGemstones } from "@/lib/store";
+import { getGemstones } from "@/lib/catalog";
 
 export default async function ShopGrid() {
   const gemstones = await getGemstones();

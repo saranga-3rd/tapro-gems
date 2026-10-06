@@ -4,7 +4,7 @@ import RevealGroup from "@/components/motion/RevealGroup";
 import Button from "@/components/ui/Button";
 import Section from "@/components/ui/Section";
 import { getDictionary } from "@/lib/i18n/dictionary";
-import { getFeaturedGemstones } from "@/lib/store";
+import { getFeaturedGemstones } from "@/lib/catalog";
 
 export default async function FeaturedGemstones() {
   const featuredGemstones = await getFeaturedGemstones();

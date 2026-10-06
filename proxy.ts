@@ -33,6 +33,6 @@ export function proxy(request: NextRequest) {
 }
 
 export const config = {
-  // Skip API routes, admin, uploaded media, Next internals and any file with an extension.
-  matcher: ["/((?!api|admin|media|_next|.*[.]).*)"],
+  // Skip API routes, Next internals and any file with an extension.
+  matcher: ["/((?!api|_next|.*[.]).*)"],
 };

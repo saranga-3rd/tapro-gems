@@ -5,9 +5,9 @@ import RevealGroup from "@/components/motion/RevealGroup";
 import AutoplayVideo from "@/components/ui/AutoplayVideo";
 import Section from "@/components/ui/Section";
 import { getDictionary } from "@/lib/i18n/dictionary";
-import { getMedia } from "@/lib/store";
+import { getMedia } from "@/lib/catalog";
 
-/** Items managed from the admin dashboard (Collections hub). */
+/** Jewellery pieces from public/jew. */
 export default async function CollectionsGallery() {
   const items = await getMedia("collections");
   const t = (await getDictionary()).collections.gallery;
