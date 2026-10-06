@@ -1,0 +1,30 @@
+{
+  "heading": "Lähetä meille kysely",
+  "intro": "Kerro, mitä etsit, niin tiimimme vastaa mahdollisimman pian.",
+  "success": "Kiitos — kyselysi on vastaanotettu. Tiimimme ottaa pian yhteyttä.",
+  "fullName": "Koko nimi",
+  "email": "Sähköpostiosoite",
+  "phone": "Puhelinnumero",
+  "country": "Maa",
+  "enquiryType": "Kyselyn tyyppi",
+  "contactMethod": "Ensisijainen yhteydenottotapa",
+  "selectOption": "Valitse vaihtoehto",
+  "gemstone": "Kiinnostava jalokivi",
+  "gemstonePlaceholder": "esim. Royal Blue Ceylon -safiiri",
+  "message": "Viesti",
+  "submit": "Lähetä kysely",
+  "enquiryTypes": [
+    "Yleinen kysely",
+    "Tapaamisen varaus",
+    "Jalokivien saatavuus",
+    "Yksityinen hankinta",
+    "Tukkukysely",
+    "Sertifiointikysymys",
+    "Muu"
+  ],
+  "contactMethods": [
+    "Sähköposti",
+    "Puhelin",
+    "WhatsApp"
+  ]
+}

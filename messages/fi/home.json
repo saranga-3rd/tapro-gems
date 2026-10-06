@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "title": "Tapro Gems | Aidot Sri Lankan jalokivet",
+    "description": "Tapro Gems on suomalainen perheyritys, joka tarjoaa käsin valittuja, sertifioituja aitoja Sri Lankan safiireja, rubiineja ja harvinaisia jalokiviä keräilijöille, sijoittajille ja korusuunnittelijoille ympäri Euroopan."
+  },
+  "hero": {
+    "imageAlt": "Malli yllään Tapro Gemsin safiirikaulakoru, korvakorut ja sormus",
+    "heading1": "Aidot jalokivet.",
+    "heading2": "Valittu koko maailmalle.",
+    "paragraph": "Käsin valittuja, sertifioituja aitoja jalokiviä Sri Lankasta, esiteltynä eurooppalaisella luotettavuudella.",
+    "explore": "Tutustu jalokiviin",
+    "book": "Varaa tapaaminen"
+  },
+  "brandIntro": {
+    "watermarkTop": "Jalokivet",
+    "watermarkBottom": "Valikoima",
+    "text": "Kolmen sukupolven osaaminen, jonka tarkoituksena on tuoda Sri Lankan hienoimmat aidot jalokivet vaativille keräilijöille ympäri Euroopan.",
+    "storyLine1": "Meidän",
+    "storyLine2": "tarinamme"
+  },
+  "finland": {
+    "eyebrow": "Tapro Gems on saapunut",
+    "title": "Nyt Suomessa.",
+    "cta": "Varaa aika"
+  },
+  "featured": {
+    "title": "Esillä olevat jalokivet",
+    "viewAll": "Katso kaikki jalokivet"
+  },
+  "why": {
+    "imageAlt": "Nainen yllään Tapro Gemsin safiirimedaljonki ja korvakorut",
+    "titleLines": ["Jokainen kivi,", "vastuullisesti hankittu."],
+    "text": "Jokainen tarjoamamme jalokivi on käsin valittu alkuperämaassa Sri Lankassa ja sertifioitu riippumattomasti – kolmen sukupolven perheyrityksen ylläpitämä laatustandardi.",
+    "keyPoints": ["100 % aito", "Sri Lankalainen alkuperä", "Käsin valittu", "Sertifioitu", "Perheyritys"],
+    "cta": "Tutustu"
+  },
+  "occasion": {
+    "imageAlt": "Nainen yllään Tapro Gemsin safiiririppukorvakoru",
+    "titleLines": ["Ajatonta eleganssia,", "jokaiseen tilaisuuteen."],
+    "text": "yksi poikkeuksellinen kivi, joka seuraa elämän jokaista lukua – johtokunnan kokouksesta juhlagaalaan.",
+    "cta": "Tutustu kokoelmaan"
+  },
+  "banner": {
+    "ariaLabel": "Katso kaikki jalokivet",
+    "watermark": "hohde",
+    "imageAlt": "Käsi, joka pitelee aitoa safiirijalokiveä",
+    "text": "Jokainen kivi on käsin valittu harvinaisuutensa, kirkkautensa ja valonsa vuoksi – hohde, joka puhuu puolestaan."
+  },
+  "categories": {
+    "eyebrow": "Tutustu",
+    "title": "Tutustu jalokiviimme",
+    "names": {
+      "sapphire": "Safiiri",
+      "ruby": "Rubiini",
+      "star-sapphire": "Tähtisafiiri",
+      "yellow-sapphire": "Keltainen safiiri"
+    }
+  },
+  "story": {
+    "title": "Tapron tarina",
+    "quote": "”Jokainen jalokivi kantaa mukanaan sen maan tarinaa, jossa se on syntynyt – me autamme sitä vain löytämään omat kätensä.”",
+    "journeyLine1": "Meidän",
+    "journeyLine2": "matkamme",
+    "imageAlt1": "Raakaa safiirikidettä luonnollisessa kivimatriisissaan",
+    "imageAlt2": "Kaksi yhteen liitettyä kättä pitelemässä hiottua safiiria"
+  },
+  "collectors": {
+    "imageAlt": "Nainen pitelemässä irtonaista aitoa safiiria",
+    "ringAlt": "Kultasormus, jossa on aito safiiri",
+    "eyebrow": "Ammattilaisille",
+    "title": "Keräilijät ja ammattilaiset",
+    "description": "Yksityistä hankintaa, tukkueriä ja konsultaatiota keräilijöille, sijoittajille ja korusuunnittelijoille, jotka haluavat luotettavan, suoran suhteen alkuperään.",
+    "audiences": ["Keräilijät", "Sijoittajat", "Korusuunnittelijat", "Tukkuostajat"],
+    "cta": "Ota yhteyttä"
+  },
+  "certification": {
+    "eyebrow": "Sertifiointi",
+    "title": "Sertifiointi ja aitous",
+    "description": "Jokaisen jalokiven alkuperä on selkeästi dokumentoitu. Sri Lankan jalokiviviranomaisen sertifikaatti kuuluu vakiona, ja kansainväliset sertifikaatit, kuten GIA, ovat saatavilla pyynnöstä.",
+    "certificates": [
+      {
+        "title": "Sri Lankan jalokiviviranomainen",
+        "description": "Paikallinen gemmologinen sertifikaatti, joka tunnustetaan alkuperämaassa."
+      },
+      {
+        "title": "Kansainvälinen sertifiointi",
+        "description": "GIA- ja muut kansainväliset sertifikaatit järjestetään pyynnöstä."
+      }
+    ],
+    "cta": "Lue sertifioinnista"
+  },
+  "appointment": {
+    "title": "Raakamaasta harvinaiseen kauneuteen.",
+    "cta": "Varaa yksityinen tapaaminen",
+    "imageAlt": "Aitoja safiireja ja rubiini norsunluunvärisellä satiinikankaalla"
+  },
+  "founder": {
+    "eyebrow": "Perustajan tarina",
+    "title": "Kolme sukupolvea, yksi alkuperä.",
+    "description": "Tapro Gems sai alkunsa perheen yhteydestä Ratnapuran jalokivikentille Sri Lankassa. Tänä päivänä tämä suhde mahdollistaa kivien käsinvalinnan suoraan alkuperämaassa – ja saman luottamuksen ja huolenpidon välittämisen jokaiselle asiakkaallemme Helsingistä ympäri Euroopan."
+  }
+}

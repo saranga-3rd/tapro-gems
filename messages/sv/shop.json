@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "title": "Köp naturliga ädelstenar | Tapro Gems",
+    "description": "Utforska certifierade, naturliga safirer, rubiner, stjärnsafirer och sällsynta ädelstenar från Sri Lanka hos Tapro Gems."
+  },
+  "hero": {
+    "imageAlt": "Kvinna som granskar en naturlig safir bland en bricka med lösa ädelstenar",
+    "eyebrow": "Butik",
+    "heading": "Naturliga ädelstenar, handplockade åt dig",
+    "paragraph": "Utforska certifierade safirer, rubiner och sällsynta ädelstenar – varje sten är handplockad vid källan och redo för en privat konsultation.",
+    "cta": "Boka ett privat möte"
+  },
+  "grid": {
+    "heading": "Kollektionen"
+  },
+  "card": {
+    "carat": "Karat",
+    "cut": "Slipning",
+    "colour": "Färg",
+    "origin": "Ursprung",
+    "view": "Visa {name}"
+  },
+  "product": {
+    "notFoundTitle": "Ädelstenen hittades inte | Tapro Gems",
+    "backToShop": "Tillbaka till butiken",
+    "certification": "Certifiering",
+    "bookAppointment": "Boka möte",
+    "certificationStandards": "Certifieringsstandarder",
+    "galleryPlayVideo": "Spela upp video: {name}",
+    "galleryShowImage": "Visa bild {n}: {name}"
+  },
+  "categories": {
+    "Sapphire": "Safir",
+    "Ruby": "Rubin",
+    "Star Sapphire": "Stjärnsafir",
+    "Yellow Sapphire": "Gul safir",
+    "Rare Gemstone": "Sällsynt ädelsten"
+  }
+}

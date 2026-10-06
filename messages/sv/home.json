@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "title": "Tapro Gems | Naturliga ädelstenar från Sri Lanka",
+    "description": "Tapro Gems är ett familjeägt ädelstenshus i Finland som erbjuder handplockade, certifierade naturliga safirer, rubiner och sällsynta ädelstenar från Sri Lanka till samlare, investerare och smyckesdesigners i hela Europa."
+  },
+  "hero": {
+    "imageAlt": "Modell med ett safirhalsband, örhängen och en ring från Tapro Gems",
+    "heading1": "Naturliga ädelstenar.",
+    "heading2": "Utvalda för världen.",
+    "paragraph": "Handplockade, certifierade naturliga ädelstenar från Sri Lanka, presenterade med europeisk trygghet.",
+    "explore": "Utforska ädelstenar",
+    "book": "Boka ett möte"
+  },
+  "brandIntro": {
+    "watermarkTop": "Ädelstenar",
+    "watermarkBottom": "Urval",
+    "text": "Två generationers expertis, med målet att föra de finaste naturliga ädelstenarna från Sri Lanka till kräsna samlare i hela Europa.",
+    "storyLine1": "Vår",
+    "storyLine2": "historia"
+  },
+  "finland": {
+    "eyebrow": "Tapro Gems har anlänt",
+    "title": "Nu i Finland.",
+    "cta": "Boka en tid"
+  },
+  "featured": {
+    "title": "Utvalda ädelstenar",
+    "viewAll": "Visa alla ädelstenar"
+  },
+  "why": {
+    "imageAlt": "Kvinna med ett safirhalsband och örhängen från Tapro Gems",
+    "titleLines": ["Varje sten,", "ärligt anskaffad."],
+    "text": "Varje ädelsten vi erbjuder är handplockad på ursprungsplatsen i Sri Lanka och oberoende certifierad – en standard som upprätthållits av tre generationers familjeägande.",
+    "keyPoints": ["100 % naturlig", "Sri Lankas ursprung", "Handplockad", "Certifierad", "Familjeägt"],
+    "cta": "Upptäck"
+  },
+  "occasion": {
+    "imageAlt": "Kvinna med ett safirörhänge från Tapro Gems",
+    "titleLines": ["Tidlös elegans,", "för varje tillfälle."],
+    "text": "en enastående sten, skapad för att följa med genom livets alla kapitel – från styrelserum till galamiddag.",
+    "cta": "Utforska kollektionen"
+  },
+  "banner": {
+    "ariaLabel": "Visa alla ädelstenar",
+    "watermark": "briljans",
+    "imageAlt": "Hand som håller en naturlig safir",
+    "text": "Varje sten är handplockad för sin sällsynthet, klarhet och sitt ljus – briljans som talar för sig själv."
+  },
+  "categories": {
+    "eyebrow": "Utforska",
+    "title": "Utforska våra ädelstenar",
+    "names": {
+      "sapphire": "Safir",
+      "ruby": "Rubin",
+      "star-sapphire": "Stjärnsafir",
+      "yellow-sapphire": "Gul safir"
+    }
+  },
+  "story": {
+    "title": "Tapros historia",
+    "quote": "”Varje ädelsten bär på berättelsen om jorden den bildades i – vi hjälper den bara att hitta de händer den hör hemma i.”",
+    "journeyLine1": "Vår",
+    "journeyLine2": "resa",
+    "imageAlt1": "Rå safirkristall i sin naturliga bergmatris",
+    "imageAlt2": "Två händer som håller en slipad safir"
+  },
+  "collectors": {
+    "imageAlt": "Kvinna som håller en lös naturlig safir",
+    "ringAlt": "Guldring med en naturlig safir",
+    "eyebrow": "För yrkesverksamma",
+    "title": "Samlare och yrkesverksamma",
+    "description": "Privat inköp, partiaffärer och rådgivning för samlare, investerare och smyckesdesigners som vill ha en pålitlig, direkt relation till ursprunget.",
+    "audiences": ["Samlare", "Investerare", "Smyckesdesigners", "Grossistköpare"],
+    "cta": "Kontakta oss"
+  },
+  "certification": {
+    "eyebrow": "Certifiering",
+    "title": "Certifiering och äkthet",
+    "description": "Varje ädelsten erbjuds med tydligt ursprung. Certifiering från Sri Lankas ädelstensmyndighet ingår som standard, och internationella certifikat som GIA finns tillgängliga på begäran.",
+    "certificates": [
+      {
+        "title": "Sri Lankas ädelstensmyndighet",
+        "description": "Lokal gemmologisk certifiering som erkänns på ursprungsplatsen."
+      },
+      {
+        "title": "Internationell certifiering",
+        "description": "GIA och andra internationella certifikat ordnas på begäran."
+      }
+    ],
+    "cta": "Läs om certifiering"
+  },
+  "appointment": {
+    "title": "Från rå jord till sällsynt skönhet.",
+    "cta": "Boka ett privat möte",
+    "imageAlt": "Naturliga safirer och en rubin på elfenbensfärgat satintyg"
+  },
+  "founder": {
+    "eyebrow": "Grundarens historia",
+    "title": "Tre generationer, ett ursprung.",
+    "description": "Tapro Gems föddes ur en släktkoppling till ädelstensfälten i Ratnapura, Sri Lanka. Idag gör den relationen det möjligt för oss att handplocka stenar direkt på ursprungsplatsen – och föra samma förtroende och omsorg vidare till varje kund vi betjänar, från Helsingfors till hela Europa."
+  }
+}

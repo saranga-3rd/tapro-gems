@@ -1,0 +1,30 @@
+{
+  "heading": "Skicka en förfrågan",
+  "intro": "Berätta vad du söker så återkommer vårt team så snart som möjligt.",
+  "success": "Tack — din förfrågan har tagits emot. Vårt team hör av sig inom kort.",
+  "fullName": "Fullständigt namn",
+  "email": "E-postadress",
+  "phone": "Telefonnummer",
+  "country": "Land",
+  "enquiryType": "Typ av förfrågan",
+  "contactMethod": "Önskat kontaktsätt",
+  "selectOption": "Välj ett alternativ",
+  "gemstone": "Ädelsten av intresse",
+  "gemstonePlaceholder": "t.ex. Royal Blue Ceylon-safir",
+  "message": "Meddelande",
+  "submit": "Skicka förfrågan",
+  "enquiryTypes": [
+    "Allmän förfrågan",
+    "Boka ett möte",
+    "Tillgänglighet av ädelstenar",
+    "Privat inköp",
+    "Grossistförfrågan",
+    "Fråga om certifiering",
+    "Övrigt"
+  ],
+  "contactMethods": [
+    "E-post",
+    "Telefon",
+    "WhatsApp"
+  ]
+}

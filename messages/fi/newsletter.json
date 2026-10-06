@@ -1,0 +1,62 @@
+{
+  "label": "Uutuudet sähköpostiisi",
+  "hintBefore": "Tilaa sähköposti aina, kun julkaisemme uuden jalokiven tai korun. Lue lisää ",
+  "privacyLink": "tietosuojaselosteesta",
+  "hintAfter": ".",
+  "placeholder": "nimi@esimerkki.fi",
+  "subscribe": "Tilaa",
+  "subscribing": "Tilataan…",
+  "sending": "Lähetetään vahvistussähköpostia…",
+  "errors": {
+    "invalid": "Anna kelvollinen sähköpostiosoite.",
+    "generic": "Jokin meni pieleen. Yritä uudelleen.",
+    "network": "Palvelimeen ei saatu yhteyttä. Yritä uudelleen.",
+    "tooMany": "Liian monta yritystä. Yritä uudelleen muutaman minuutin kuluttua.",
+    "sendFailed": "Vahvistussähköpostin lähettäminen epäonnistui. Yritä uudelleen hetken kuluttua.",
+    "unavailable": "Tilaukset eivät ole tilapäisesti käytettävissä."
+  },
+  "success": "Tarkista sähköpostisi ja vahvista tilauksesi.",
+  "confirm": {
+    "meta": {
+      "title": "Vahvista tilaus | Tapro Gems"
+    },
+    "eyebrow": "Uutiskirje",
+    "title": "Vahvista tilauksesi",
+    "body": "Vielä yksi vaihe. Vahvista, että haluat saada sähköpostin, kun Tapro Gems julkaisee uuden jalokiven tai korun.",
+    "button": "Vahvista tilaus"
+  },
+  "resultMeta": {
+    "title": "Uutiskirje | Tapro Gems"
+  },
+  "card": {
+    "explore": "Tutustu kokoelmaan",
+    "backHome": "Takaisin etusivulle"
+  },
+  "results": {
+    "confirmed": {
+      "eyebrow": "Tilaus tehty",
+      "title": "Olet mukana listalla",
+      "body": "Kiitos. Tilauksesi on vahvistettu, ja lähetämme sinulle sähköpostia, kun julkaisemme uuden jalokiven tai korun. Voit perua tilauksen milloin tahansa jokaisessa lähettämässämme viestissä."
+    },
+    "used": {
+      "eyebrow": "Jo vahvistettu",
+      "title": "Tämä linkki on jo käytetty",
+      "body": "Vahvistuslinkki on jo käytetty, joten mitään muuta ei tarvitse tehdä. Jos olet sittemmin perunut tilauksen, voit tilata uudelleen verkkosivustomme alatunnisteesta."
+    },
+    "expired": {
+      "eyebrow": "Linkki vanhentunut",
+      "title": "Tämä vahvistuslinkki on vanhentunut",
+      "body": "Vahvistuslinkit ovat voimassa 48 tuntia. Tilaa uudelleen verkkosivustomme alatunnisteesta, niin lähetämme sinulle uuden linkin."
+    },
+    "error": {
+      "eyebrow": "Jokin meni pieleen",
+      "title": "Pyyntöäsi ei voitu käsitellä",
+      "body": "Yritä linkkiä uudelleen muutaman minuutin kuluttua."
+    },
+    "invalid": {
+      "eyebrow": "Virheellinen linkki",
+      "title": "Linkkiä ei voitu vahvistaa",
+      "body": "Tämä vahvistuslinkki ei ole kelvollinen. Tilaa uudelleen verkkosivustomme alatunnisteesta, niin saat uuden linkin."
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "label": "Nyheter via e-post",
+  "hintBefore": "Prenumerera för att få ett e-postmeddelande varje gång vi publicerar en ny ädelsten eller ett nytt smycke. Läs vår ",
+  "privacyLink": "integritetspolicy",
+  "hintAfter": ".",
+  "placeholder": "namn@exempel.se",
+  "subscribe": "Prenumerera",
+  "subscribing": "Prenumererar…",
+  "sending": "Skickar ditt bekräftelsemejl…",
+  "errors": {
+    "invalid": "Ange en giltig e-postadress.",
+    "generic": "Något gick fel. Försök igen.",
+    "network": "Det gick inte att nå servern. Försök igen.",
+    "tooMany": "För många försök. Försök igen om några minuter.",
+    "sendFailed": "Vi kunde inte skicka bekräftelsemejlet. Försök igen om en stund.",
+    "unavailable": "Prenumerationer är tillfälligt otillgängliga."
+  },
+  "success": "Kontrollera din inkorg för att bekräfta din prenumeration.",
+  "confirm": {
+    "meta": {
+      "title": "Bekräfta prenumeration | Tapro Gems"
+    },
+    "eyebrow": "Nyhetsbrev",
+    "title": "Bekräfta din prenumeration",
+    "body": "Ett sista steg. Bekräfta att du vill få ett e-postmeddelande när Tapro Gems publicerar en ny ädelsten eller ett nytt smycke.",
+    "button": "Bekräfta prenumeration"
+  },
+  "resultMeta": {
+    "title": "Nyhetsbrev | Tapro Gems"
+  },
+  "card": {
+    "explore": "Utforska kollektionen",
+    "backHome": "Tillbaka till startsidan"
+  },
+  "results": {
+    "confirmed": {
+      "eyebrow": "Prenumeration klar",
+      "title": "Du är med på listan",
+      "body": "Tack. Din prenumeration är bekräftad och vi mejlar dig när vi publicerar en ny ädelsten eller ett nytt smycke. Du kan avsluta prenumerationen när som helst via valfritt mejl från oss."
+    },
+    "used": {
+      "eyebrow": "Redan bekräftad",
+      "title": "Den här länken har redan använts",
+      "body": "Din bekräftelselänk har redan använts, så det finns inget mer att göra. Om du har avslutat din prenumeration sedan dess kan du prenumerera igen via sidfoten på vår webbplats."
+    },
+    "expired": {
+      "eyebrow": "Länken har gått ut",
+      "title": "Den här bekräftelselänken har gått ut",
+      "body": "Bekräftelselänkar är giltiga i 48 timmar. Prenumerera igen via sidfoten på vår webbplats så skickar vi en ny länk."
+    },
+    "error": {
+      "eyebrow": "Något gick fel",
+      "title": "Vi kunde inte behandla din begäran",
+      "body": "Försök med länken igen om några minuter."
+    },
+    "invalid": {
+      "eyebrow": "Ogiltig länk",
+      "title": "Vi kunde inte verifiera länken",
+      "body": "Den här bekräftelselänken är inte giltig. Prenumerera igen via sidfoten på vår webbplats för att få en ny."
+    }
+  }
+}

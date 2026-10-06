@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+  /* Sapphire — primary brand blue */
+  --color-sapphire-50: #eef3fb;
+  --color-sapphire-100: #d7e3f5;
+  --color-sapphire-200: #b0c7ec;
+  --color-sapphire-300: #82a6de;
+  --color-sapphire-400: #4f7dcb;
+  --color-sapphire-500: #2c5bae;
+  --color-sapphire-600: #1f4488;
+  --color-sapphire-700: #1a3a73;
+  --color-sapphire-800: #152e5c;
+  --color-sapphire-900: #0f2245;
+
+  /* Midnight navy — dark sections and backgrounds */
+  --color-navy-800: #101e36;
+  --color-navy-900: #0b1526;
+  --color-navy-950: #070d19;
+
+  /* Champagne gold — accents and calls to action */
+  --color-gold-50: #fbf6ec;
+  --color-gold-100: #f5ead0;
+  --color-gold-200: #ecdbae;
+  --color-gold-300: #e0c583;
+  --color-gold-400: #d1ac5c;
+  --color-gold-500: #c0964a;
+  --color-gold-600: #a67d3b;
+  --color-gold-700: #86642f;
+
+  /* Ivory — base background */
+  --color-ivory: #faf8f4;
+  --color-ivory-100: #f5f1ea;
+  --color-ivory-200: #ece5d8;
+
+  /* Ink — text */
+  --color-ink: #12161f;
+  --color-ink-muted: #5b6472;
+
+  /* Typography */
+  --font-display: var(--font-playfair), Georgia, serif;
+  --font-sans: var(--font-inter), Helvetica, Arial, sans-serif;
+  --font-accent: var(--font-cormorant), Georgia, serif;
+}
+
+body {
+  background-color: var(--color-ivory);
+  color: var(--color-ink);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

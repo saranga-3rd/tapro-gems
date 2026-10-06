@@ -1,0 +1,24 @@
+{
+  "eyebrow": "Yksityinen tapaaminen",
+  "heading": "Varaa yksityinen tapaaminen",
+  "intro": "Valitse ajankohta, jolloin voit keskustella tiimimme kanssa jalokivitoiveistasi, hankintavaihtoehdoista ja sertifiointitarpeistasi. Vahvistamme tapaamisen sähköpostitse.",
+  "success": "Kiitos — tapaamispyyntösi on vastaanotettu. Tiimimme vahvistaa ajankohdan pian.",
+  "error": "Pyyntöäsi ei voitu lähettää. Yritä uudelleen tai ota yhteyttä numeroon {phone}.",
+  "fullName": "Koko nimi",
+  "email": "Sähköpostiosoite",
+  "phone": "Puhelinnumero",
+  "format": "Tapaamistapa",
+  "selectOption": "Valitse vaihtoehto",
+  "date": "Toivottu päivämäärä",
+  "time": "Toivottu kellonaika",
+  "gemstone": "Kiinnostava jalokivi",
+  "noGemstone": "Ei tiettyä jalokiveä",
+  "message": "Viesti",
+  "sending": "Lähetetään…",
+  "submit": "Pyydä tapaamista",
+  "formats": [
+    "Paikan päällä — Tampere",
+    "Videopuhelu",
+    "Puhelinsoitto"
+  ]
+}

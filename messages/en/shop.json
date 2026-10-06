@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "title": "Shop Natural Gemstones | Tapro Gems",
+    "description": "Browse certified natural Sri Lankan sapphires, rubies, star sapphires and rare gemstones from Tapro Gems."
+  },
+  "hero": {
+    "imageAlt": "Woman examining a natural sapphire among a tray of loose gemstones",
+    "eyebrow": "Shop",
+    "heading": "Natural Gemstones, Hand-Selected for You",
+    "paragraph": "Browse certified sapphires, rubies and rare gemstones — each stone hand-selected at origin and ready for a private consultation.",
+    "cta": "Book a Private Appointment"
+  },
+  "grid": {
+    "heading": "The Collection"
+  },
+  "card": {
+    "carat": "Carat",
+    "cut": "Cut",
+    "colour": "Colour",
+    "origin": "Origin",
+    "view": "View {name}"
+  },
+  "product": {
+    "notFoundTitle": "Gemstone Not Found | Tapro Gems",
+    "backToShop": "Back to Shop",
+    "certification": "Certification",
+    "bookAppointment": "Book Appointment",
+    "certificationStandards": "Certification Standards",
+    "galleryPlayVideo": "Play {name} video",
+    "galleryShowImage": "Show {name} image {n}"
+  },
+  "categories": {
+    "Sapphire": "Sapphire",
+    "Ruby": "Ruby",
+    "Star Sapphire": "Star Sapphire",
+    "Yellow Sapphire": "Yellow Sapphire",
+    "Rare Gemstone": "Rare Gemstone"
+  }
+}

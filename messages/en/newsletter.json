@@ -1,0 +1,62 @@
+{
+  "label": "New arrivals by email",
+  "hintBefore": "Subscribe to receive an email whenever we publish a new gemstone or jewellery piece. See our ",
+  "privacyLink": "Privacy Policy",
+  "hintAfter": ".",
+  "placeholder": "you@example.com",
+  "subscribe": "Subscribe",
+  "subscribing": "Subscribing…",
+  "sending": "Sending your confirmation email…",
+  "errors": {
+    "invalid": "Please enter a valid email address.",
+    "generic": "Something went wrong. Please try again.",
+    "network": "Could not reach the server. Please try again.",
+    "tooMany": "Too many attempts. Please try again in a few minutes.",
+    "sendFailed": "We could not send the confirmation email. Please try again shortly.",
+    "unavailable": "Subscriptions are temporarily unavailable."
+  },
+  "success": "Please check your inbox to confirm your subscription.",
+  "confirm": {
+    "meta": {
+      "title": "Confirm Subscription | Tapro Gems"
+    },
+    "eyebrow": "Newsletter",
+    "title": "Confirm your subscription",
+    "body": "One last step. Confirm that you would like to receive an email when Tapro Gems publishes a new gemstone or jewellery piece.",
+    "button": "Confirm subscription"
+  },
+  "resultMeta": {
+    "title": "Newsletter | Tapro Gems"
+  },
+  "card": {
+    "explore": "Explore the collection",
+    "backHome": "Back to home"
+  },
+  "results": {
+    "confirmed": {
+      "eyebrow": "Subscribed",
+      "title": "You are on the list",
+      "body": "Thank you. Your subscription is confirmed and we will email you when we publish a new gemstone or jewellery piece. You can unsubscribe at any time from any email we send."
+    },
+    "used": {
+      "eyebrow": "Already confirmed",
+      "title": "This link has already been used",
+      "body": "Your confirmation link was used before, so there is nothing more to do. If you have since unsubscribed, you can subscribe again from the footer of our website."
+    },
+    "expired": {
+      "eyebrow": "Link expired",
+      "title": "This confirmation link has expired",
+      "body": "Confirmation links are valid for 48 hours. Please subscribe again from the footer of our website and we will send you a fresh link."
+    },
+    "error": {
+      "eyebrow": "Something went wrong",
+      "title": "We could not process your request",
+      "body": "Please try the link again in a few minutes."
+    },
+    "invalid": {
+      "eyebrow": "Invalid link",
+      "title": "We could not verify this link",
+      "body": "This confirmation link is not valid. Please subscribe again from the footer of our website to receive a new one."
+    }
+  }
+}

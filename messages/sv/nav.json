@@ -1,0 +1,14 @@
+{
+  "links": {
+    "home": "Hem",
+    "shop": "Butik",
+    "collections": "Kollektioner",
+    "about": "Om oss",
+    "contact": "Kontakt"
+  },
+  "bookAppointment": "Boka tid",
+  "openMenu": "Öppna menyn",
+  "closeMenu": "Stäng menyn",
+  "primaryAria": "Huvudmeny",
+  "languageLabel": "Språk"
+}

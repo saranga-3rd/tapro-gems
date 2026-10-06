@@ -1,0 +1,14 @@
+{
+  "links": {
+    "home": "Home",
+    "shop": "Shop",
+    "collections": "Collections",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "bookAppointment": "Book Appointment",
+  "openMenu": "Open menu",
+  "closeMenu": "Close menu",
+  "primaryAria": "Primary",
+  "languageLabel": "Language"
+}

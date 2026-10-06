@@ -1,0 +1,14 @@
+{
+  "links": {
+    "home": "Etusivu",
+    "shop": "Kauppa",
+    "collections": "Kokoelmat",
+    "about": "Tietoa meistä",
+    "contact": "Yhteystiedot"
+  },
+  "bookAppointment": "Varaa aika",
+  "openMenu": "Avaa valikko",
+  "closeMenu": "Sulje valikko",
+  "primaryAria": "Päävalikko",
+  "languageLabel": "Kieli"
+}

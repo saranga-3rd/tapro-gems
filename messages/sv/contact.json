@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "title": "Kontakta Tapro Gems | Naturliga ädelstenar från Sri Lanka",
+    "description": "Kontakta Tapro Gems för frågor om ädelstenar, privata möten, inköpsförfrågningar och certifiering."
+  },
+  "hero": {
+    "eyebrow": "Kontakta oss",
+    "heading": "Låt oss hitta rätt ädelsten åt dig",
+    "imageAlt": "Kvinna som håller en naturlig safir från Tapro Gems vid ett marmorbord"
+  },
+  "options": {
+    "items": [
+      {
+        "title": "Mejla oss",
+        "description": "För allmänna frågor, information om ädelstenar och affärsförfrågningar."
+      },
+      {
+        "title": "WhatsApp",
+        "description": "För snabba frågor, tillgänglighet och mötesförfrågningar."
+      },
+      {
+        "title": "Boka ett privat möte",
+        "description": "Boka en personlig konsultation för att diskutera dina önskemål om ädelstenar."
+      },
+      {
+        "title": "Grossist- och yrkesförfrågningar",
+        "description": "För smyckesdesigners, samlare, investerare och grossistköpare som söker specifika stenar eller hjälp med inköp."
+      }
+    ]
+  },
+  "introduction": {
+    "heading": "Prata direkt med Tapro Gems",
+    "paragraphs": [
+      "Vi erbjuder personlig service vid frågor om ädelstenar, privata möten, inköpsförfrågningar och certifiering.",
+      "Om du söker en specifik ädelsten, vill veta mer om en sten i vår kollektion eller vill boka en privat konsultation är du varmt välkommen att höra av dig."
+    ]
+  },
+  "privateAppointment": {
+    "imageAlt": "Naturliga safirer och rubiner på mörk sammet",
+    "heading": "Önskar du en mer personlig konsultation?",
+    "text": "Boka ett privat möte med Tapro Gems och prata direkt med vårt team om dina önskemål om ädelstenar, inköpsmöjligheter och certifiering.",
+    "cta": "Boka ett privat möte"
+  },
+  "business": {
+    "tagline": "Familjeägt ädelstensföretag baserat i Finland",
+    "specialising": "Specialiserade på naturliga ädelstenar från Sri Lanka",
+    "phoneSuffix": "(telefon / WhatsApp)",
+    "registered": "Registrerat i Finland"
+  },
+  "social": {
+    "heading": "Håll kontakten",
+    "text": "Skriv till Tapro Gems på WhatsApp för frågor om ädelstenar och mötesförfrågningar.",
+    "whatsappLabel": "WhatsApp"
+  },
+  "shortIntro": {
+    "text": "Oavsett om du är samlare, investerare, smyckesdesigner, grossistköpare eller privatkund hjälper vi dig gärna att hitta rätt naturlig ädelsten från Sri Lanka."
+  },
+  "closing": {
+    "headline": "Naturliga ädelstenar. Personlig service. Pålitlig vägledning.",
+    "text": "Vi ser fram emot att hjälpa dig hitta din nästa exceptionella ädelsten."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "eyebrow": "Privat möte",
+  "heading": "Boka ett privat möte",
+  "intro": "Välj en tid för att prata med vårt team om dina önskemål om ädelstenar, inköpsmöjligheter och certifiering. Vi bekräftar ditt möte via e-post.",
+  "success": "Tack — din mötesförfrågan har tagits emot. Vårt team bekräftar tiden inom kort.",
+  "error": "Vi kunde inte skicka din förfrågan. Försök igen eller kontakta oss på {phone}.",
+  "fullName": "Fullständigt namn",
+  "email": "E-postadress",
+  "phone": "Telefonnummer",
+  "format": "Mötesform",
+  "selectOption": "Välj ett alternativ",
+  "date": "Önskat datum",
+  "time": "Önskad tid",
+  "gemstone": "Ädelsten av intresse",
+  "noGemstone": "Ingen specifik ädelsten",
+  "message": "Meddelande",
+  "sending": "Skickar…",
+  "submit": "Begär möte",
+  "formats": [
+    "På plats — Tammerfors",
+    "Videosamtal",
+    "Telefonsamtal"
+  ]
+}

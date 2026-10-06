@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "title": "Om Tapro Gems | Naturliga ädelstenar från Sri Lanka",
+    "description": "Tapro Gems är ett familjeägt ädelstensföretag med bas i Finland, specialiserat på 100 % naturliga ädelstenar från Sri Lanka för samlare, investerare, smyckesprofessionella och privatkunder."
+  },
+  "hero": {
+    "imageAlt": "Kvinna som håller en naturlig safir från Tapro Gems",
+    "eyebrow": "Om Tapro Gems",
+    "heading": "Naturliga ädelstenar från Sri Lanka, presenterade med nordisk förfining"
+  },
+  "intro": {
+    "watermarkNatural": "Naturlig",
+    "watermarkTrusted": "Pålitlig",
+    "text": "Tapro Gems är ett familjeägt ädelstensföretag med bas i Finland, specialiserat på 100 % naturliga ädelstenar från Sri Lanka. Vi erbjuder noggrant utvalda stenar till samlare, investerare, smyckesprofessionella och privatkunder i hela Europa och på internationella marknader."
+  },
+  "story": {
+    "heading": "Vår historia",
+    "paragraphs": [
+      "Tapro Gems är ett familjeägt ädelstensföretag med rötter i Sri Lanka, byggt på mer än 25 års kunskap, erfarenhet och passion för landets värdefulla ädelstenar. Det som började som ett familjeföretag i Sri Lanka har vuxit genom åren av hängivenhet och expertis, och expanderar nu till Europa, med start i Finland.",
+      "Vårt erfarna team i Sri Lanka har byggt upp en omfattande kunskap om den lokala ädelstensbranschen och väljer noggrant ut varje ädelsten som förs till Finland. Av det stora utbudet av ädelstenar i Sri Lanka väljer vi endast de finaste stenarna, som uppfyller våra krav på kvalitet, äkthet, färg, klarhet, slipning och helhetsintryck.",
+      "Varje ädelsten som Tapro Gems erbjuder är utvald med omsorg och med övertygelsen att våra kunder förtjänar något riktigt speciellt. Vårt mål är att erbjuda européer de finaste urvalen av ädelstenar från Sri Lanka, samtidigt som vi bevarar de kvalitetskrav, den kunskap och de värderingar som har väglett vårt familjeföretag i generationer.",
+      "Vi anser att det att äga en ädelsten ska vara mer än att äga något vackert. Det ska vara en upplevelse byggd på förtroende, kunskap, kvalitet, transparens och verkligt värde.",
+      "Tapro Gems är mer än ett nytt företag – det är en fortsättning på ett familjearv, som för ädelstenarnas skönhet, karaktär och arv från vårt hemland till en ny generation kunder i hela Europa."
+    ]
+  },
+  "team": {
+    "heading": "Vårt team",
+    "blocks": {
+      "udith": { "imageAlt": "Uditha De Alwis, ägare till On Gem Group" },
+      "founders": { "imageAlt": "Grundarteamet bakom Tapro Gems" }
+    },
+    "members": {
+      "uditha": {
+        "name": "Uditha De Alwis",
+        "title": "Ägare till On Gem Group och verkställande direktör för Serene Gem Group",
+        "paragraphs": [
+          "Uditha De Alwis leder On Gem Group och Serene Gem Group, två etablerade namn inom Sri Lankas ädelstenshandel. Hans erfarenhet omfattar inköp av råa och slipade stenar på ursprungsplatsen, arbete tillsammans med gruvarbetare och slipare samt leverans av ädelstenar till internationella köpare.",
+          "Den praktiska kännedomen om Ratnapuras ädelstensfält och de långvariga relationerna inom branschen ligger bakom de krav som ställs på varje sten från Tapro Gems."
+        ]
+      },
+      "chathuranga": {
+        "name": "Chathuranga Weerakoon",
+        "title": "Medgrundare och marknadsföringschef",
+        "paragraphs": [
+          "Chathuranga styr hur Tapro Gems presenterar sina ädelstenar för europeiska samlare, investerare och designers och berättar varje stens historia tydligt och ärligt."
+        ]
+      },
+      "akla": {
+        "name": "Akla De Alwis",
+        "title": "Medgrundare och driftchef",
+        "paragraphs": [
+          "Akla ansvarar för den dagliga verksamheten, från urval av stenar i Sri Lanka till certifiering, logistik och personlig kundservice i Finland."
+        ]
+      }
+    }
+  },
+  "offer": {
+    "eyebrow": "Vårt utbud",
+    "heading": "Naturliga ädelstenar för varje ändamål",
+    "intro": "Vi är specialiserade på naturliga ädelstenar från Sri Lanka, bland annat safirer, rubiner, stjärnsafirer och andra ädelstenar. Vårt urval är gjort för:",
+    "clientTypes": [
+      "Samlare",
+      "Investerare",
+      "Smyckesdesigners",
+      "Grossistköpare",
+      "Privatkunder",
+      "Par som söker en unik ädelsten"
+    ],
+    "outro": "Vi erbjuder även personlig inköpshjälp och mötesbaserat stöd för kunder som söker något specifikt."
+  },
+  "natural": {
+    "heading": "100 % naturliga ädelstenar från Sri Lanka",
+    "text": "Våra ädelstenar kommer från Sri Lanka och väljs ut för sin naturliga karaktär, skönhet och kvalitet. Vi fokuserar inte på syntetiska eller färgbehandlade stenar. Varje ädelsten presenteras med tydlig information om dess:",
+    "details": ["Karat", "Slipning", "Färg", "Ursprung", "Certifiering", "Visuella detaljer"],
+    "imageAlt": "Naturlig kuddslipad safir på marmor"
+  },
+  "certification": {
+    "eyebrow": "Certifiering och förtroende",
+    "heading": "Tydligt, pålitligt och tryggt",
+    "paragraphs": [
+      "Transparens är en viktig del av vårt sätt att arbeta. Våra ädelstenar åtföljs av lokala certifikat från Sri Lanka och certifikat från erkända ädelstensmyndigheter. Internationell certifiering, till exempel från GIA eller andra erkända laboratorier, kan även ordnas vid behov.",
+      "Vårt mål är att göra varje köp tydligt, pålitligt och tryggt."
+    ]
+  },
+  "family": {
+    "heading": "Familjeägt, personlig service",
+    "paragraphs": [
+      "Tapro Gems bygger på personliga relationer, förtroende och långsiktigt värde. Som familjeägt företag tror vi att lyx ska kännas personlig snarare än avlägsen.",
+      "Oavsett om kunden är samlare, investerare, designer eller köper sin första ädelsten strävar vi efter att erbjuda omsorgsfull vägledning och en skräddarsydd upplevelse."
+    ],
+    "imageAlt": "Två personer granskar en naturlig safir tillsammans"
+  },
+  "approach": {
+    "eyebrow": "Vårt arbetssätt",
+    "heading": "Handplockad. Naturlig. Certifierad. Personlig.",
+    "points": [
+      "Äkta ädelstenar från Sri Lanka",
+      "Noggrant utvalda naturliga stenar",
+      "Transparent kommunikation",
+      "Certifierade köp",
+      "Privata möten",
+      "Personlig inköpshjälp",
+      "Service med bas i Europa"
+    ]
+  },
+  "vision": {
+    "eyebrow": "Vår vision",
+    "quote": "”Att bygga Tapro Gems till ett pålitligt internationellt ädelstensvarumärke med bas i Europa, känt för naturliga ädelstenar från Sri Lanka, transparens och förfinad personlig service – en bro mellan Sri Lankas ädelstensarv och en modern europeisk lyxupplevelse.”"
+  }
+}

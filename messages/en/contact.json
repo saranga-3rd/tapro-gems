@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "title": "Contact Tapro Gems | Natural Sri Lankan Gemstones",
+    "description": "Get in touch with Tapro Gems for gemstone enquiries, private appointments, sourcing requests and certification questions."
+  },
+  "hero": {
+    "eyebrow": "Contact Us",
+    "heading": "Let’s Find the Right Gemstone for You",
+    "imageAlt": "Woman holding a natural Tapro Gems sapphire at a marble table"
+  },
+  "options": {
+    "items": [
+      {
+        "title": "Email Us",
+        "description": "For general enquiries, gemstone information and business requests."
+      },
+      {
+        "title": "WhatsApp",
+        "description": "For quick questions, product availability and appointment requests."
+      },
+      {
+        "title": "Book a Private Appointment",
+        "description": "Schedule a personal consultation to discuss your gemstone requirements."
+      },
+      {
+        "title": "Wholesale & Professional Enquiries",
+        "description": "For jewellery designers, collectors, investors and wholesale buyers looking for specific stones or sourcing support."
+      }
+    ]
+  },
+  "introduction": {
+    "heading": "Speak Directly with Tapro Gems",
+    "paragraphs": [
+      "We offer personalised support for gemstone enquiries, private appointments, sourcing requests and certification questions.",
+      "If you are looking for a specific gemstone, need more information about a stone in our collection, or would like to arrange a private consultation, please get in touch with us."
+    ]
+  },
+  "privateAppointment": {
+    "imageAlt": "Natural sapphires and rubies resting on dark velvet",
+    "heading": "Prefer a More Personal Consultation?",
+    "text": "Book a private appointment with Tapro Gems and speak directly with our team about your gemstone requirements, sourcing options and certification needs.",
+    "cta": "Book a Private Appointment"
+  },
+  "business": {
+    "tagline": "Finland-based family-owned gemstone company",
+    "specialising": "Specialising in natural Sri Lankan gemstones",
+    "phoneSuffix": "(Phone / WhatsApp)",
+    "registered": "Registered in Finland"
+  },
+  "social": {
+    "heading": "Stay Connected",
+    "text": "Message Tapro Gems on WhatsApp for gemstone enquiries and appointment requests.",
+    "whatsappLabel": "WhatsApp"
+  },
+  "shortIntro": {
+    "text": "Whether you are a collector, investor, jewellery designer, wholesale buyer or private client, we are here to help you find the right natural Sri Lankan gemstone."
+  },
+  "closing": {
+    "headline": "Natural gemstones. Personal service. Trusted guidance.",
+    "text": "We look forward to helping you discover your next exceptional gemstone."
+  }
+}

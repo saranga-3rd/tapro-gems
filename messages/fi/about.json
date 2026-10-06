@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "title": "Tietoa Tapro Gemsistä | Aidot sri lankalaiset jalokivet",
+    "description": "Tapro Gems on Suomessa toimiva perheyritys, joka on erikoistunut 100 % aitoihin sri lankalaisiin jalokiviin keräilijöille, sijoittajille, korualan ammattilaisille ja yksityisasiakkaille."
+  },
+  "hero": {
+    "imageAlt": "Nainen pitelee aitoa Tapro Gemsin safiiria",
+    "eyebrow": "Tietoa Tapro Gemsistä",
+    "heading": "Aidot sri lankalaiset jalokivet pohjoismaisella hienostuneisuudella"
+  },
+  "intro": {
+    "watermarkNatural": "Aito",
+    "watermarkTrusted": "Luotettu",
+    "text": "Tapro Gems on Suomessa toimiva perheyritys, joka on erikoistunut 100 % aitoihin sri lankalaisiin jalokiviin. Tuomme huolella valitut kivet keräilijöille, sijoittajille, korualan ammattilaisille ja yksityisasiakkaille kaikkialle Eurooppaan ja kansainvälisille markkinoille."
+  },
+  "story": {
+    "heading": "Tarinamme",
+    "paragraphs": [
+      "Tapro Gems on Sri Lankaan juurtunut perheyritys, jonka perustana on yli 25 vuoden tietotaito, kokemus ja intohimo maan arvokkaisiin jalokiviin. Sri Lankassa perheyrityksenä alkanut toiminta on kasvanut vuosien työn ja asiantuntemuksen myötä, ja nyt se laajenee Eurooppaan Suomesta alkaen.",
+      "Kokenut tiimimme Sri Lankassa tuntee paikallisen jalokivialan erinomaisesti ja valitsee huolellisesti jokaisen Suomeen tuotavan jalokiven. Sri Lankan laajasta jalokivivalikoimasta valitsemme vain hienoimmat kivet, jotka täyttävät laatua, aitoutta, väriä, kirkkautta, hiontaa ja kokonaisvaikutelmaa koskevat vaatimuksemme.",
+      "Jokainen Tapro Gemsin tarjoama jalokivi on valittu huolella ja sen vakaumuksen pohjalta, että asiakkaamme ansaitsevat jotakin todella erityistä. Tavoitteenamme on tuoda Sri Lankan jalokivien hienoimmat valikoimat eurooppalaisille asiakkaille säilyttäen ne laatuvaatimukset, tietotaito ja arvot, jotka ovat ohjanneet perheyritystämme sukupolvien ajan.",
+      "Uskomme, että jalokiven omistamisen tulee olla enemmän kuin kauniin esineen omistamista. Sen tulee olla kokemus, joka rakentuu luottamukselle, tietotaidolle, laadulle, avoimuudelle ja aidolle arvolle.",
+      "Tapro Gems on enemmän kuin uusi yritys – se on perheen perinnön jatkumo, joka tuo Sri Lankan jalokivien kauneuden, luonteen ja perinteen kotimaastamme uudelle asiakassukupolvelle ympäri Eurooppaa."
+    ]
+  },
+  "team": {
+    "heading": "Tiimimme",
+    "blocks": {
+      "udith": { "imageAlt": "Uditha De Alwis, On Gem Groupin omistaja" },
+      "founders": { "imageAlt": "Tapro Gemsin perustajatiimi" }
+    },
+    "members": {
+      "uditha": {
+        "name": "Uditha De Alwis",
+        "title": "On Gem Groupin omistaja ja Serene Gem Groupin toimitusjohtaja",
+        "paragraphs": [
+          "Uditha De Alwis johtaa On Gem Groupia ja Serene Gem Groupia, jotka ovat vakiintuneita nimiä Sri Lankan jalokivikaupassa. Hänen kokemuksensa kattaa raakojen ja hiottujen kivien hankinnan alkuperämaassa, työskentelyn kaivostyöläisten ja hiojien rinnalla sekä jalokivien toimittamisen kansainvälisille ostajille.",
+          "Tämä käytännönläheinen tuntemus Ratnapuran jalokivikentistä ja alan pitkäaikaiset suhteet määrittävät laatuvaatimukset jokaiselle Tapro Gemsin tarjoamalle kivelle."
+        ]
+      },
+      "chathuranga": {
+        "name": "Chathuranga Weerakoon",
+        "title": "Perustaja ja markkinointijohtaja",
+        "paragraphs": [
+          "Chathuranga ohjaa sitä, miten Tapro Gems esittelee jalokivensä eurooppalaisille keräilijöille, sijoittajille ja suunnittelijoille kertoen jokaisen kiven tarinan selkeästi ja rehellisesti."
+        ]
+      },
+      "akla": {
+        "name": "Akla De Alwis",
+        "title": "Perustaja ja operatiivinen johtaja",
+        "paragraphs": [
+          "Akla vastaa päivittäisestä toiminnasta kivien valinnasta Sri Lankassa sertifiointiin, logistiikkaan ja henkilökohtaiseen asiakaspalveluun Suomessa."
+        ]
+      }
+    }
+  },
+  "offer": {
+    "eyebrow": "Tarjontamme",
+    "heading": "Aitoja jalokiviä kaikkiin tarpeisiin",
+    "intro": "Olemme erikoistuneet aitoihin sri lankalaisiin jalokiviin, kuten safiireihin, rubiineihin, tähtisafiireihin ja muihin jalokiviin. Valikoimamme on koottu seuraaville:",
+    "clientTypes": [
+      "Keräilijät",
+      "Sijoittajat",
+      "Korusuunnittelijat",
+      "Tukkuostajat",
+      "Yksityisasiakkaat",
+      "Pariskunnat, jotka etsivät ainutlaatuista jalokiveä"
+    ],
+    "outro": "Tarjoamme myös henkilökohtaista kivien hankintaa ja ajanvarauspohjaista tukea asiakkaille, jotka etsivät jotakin tiettyä."
+  },
+  "natural": {
+    "heading": "100 % aitoja sri lankalaisia jalokiviä",
+    "text": "Jalokivemme hankitaan Sri Lankasta, ja ne valitaan aidon luonteensa, kauneutensa ja laatunsa perusteella. Emme keskity synteettisiin tai värikäsiteltyihin kiviin. Jokaisesta jalokivestä annetaan selkeät tiedot seuraavista:",
+    "details": ["Karaattipaino", "Hionta", "Väri", "Alkuperä", "Sertifiointi", "Visuaaliset ominaisuudet"],
+    "imageAlt": "Aito tyynyhiottu safiiri marmorilla"
+  },
+  "certification": {
+    "eyebrow": "Sertifiointi ja luottamus",
+    "heading": "Selkeää, luotettavaa ja varmuutta antavaa",
+    "paragraphs": [
+      "Avoimuus on tärkeä osa toimintatapaamme. Jalokivillämme on paikalliset sri lankalaiset sertifikaatit sekä tunnustettujen jalokiviviranomaisten myöntämät sertifikaatit. Tarvittaessa voidaan hankkia myös kansainvälinen sertifikaatti, kuten GIA:n tai muun tunnustetun laboratorion myöntämä.",
+      "Tavoitteenamme on tehdä jokaisesta ostoksesta selkeä, luotettava ja varmuutta antava."
+    ]
+  },
+  "family": {
+    "heading": "Perheyritys, henkilökohtainen palvelu",
+    "paragraphs": [
+      "Tapro Gemsin perustana ovat henkilökohtaiset suhteet, luottamus ja pitkäaikainen arvo. Perheyrityksenä uskomme, että ylellisyyden tulee tuntua henkilökohtaiselta, ei etäiseltä.",
+      "Olipa asiakas keräilijä, sijoittaja, suunnittelija tai ensimmäistä jalokiveään ostava, tarjoamme harkittua neuvontaa ja räätälöityä palvelua."
+    ],
+    "imageAlt": "Kaksi ihmistä tutkii yhdessä aitoa safiiria"
+  },
+  "approach": {
+    "eyebrow": "Toimintatapamme",
+    "heading": "Käsin valittu. Aito. Sertifioitu. Henkilökohtainen.",
+    "points": [
+      "Aidot sri lankalaiset jalokivet",
+      "Huolella valitut aidot kivet",
+      "Avoin viestintä",
+      "Sertifioidut ostokset",
+      "Yksityiset tapaamiset",
+      "Henkilökohtainen kivien hankinta",
+      "Eurooppalainen palvelu"
+    ]
+  },
+  "vision": {
+    "eyebrow": "Visiomme",
+    "quote": "”Rakentaa Tapro Gemsistä Euroopassa toimiva, luotettu kansainvälinen jalokivibrändi, joka tunnetaan aidoista sri lankalaisista jalokivistä, avoimuudesta ja hienostuneesta henkilökohtaisesta palvelusta – siltana Sri Lankan jalokiviperinnön ja modernin eurooppalaisen ylellisyyskokemuksen välillä.”"
+  }
+}

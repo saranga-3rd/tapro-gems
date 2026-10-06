@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "title": "Ota yhteyttä Tapro Gemsiin | Aidot Sri Lankan jalokivet",
+    "description": "Ota yhteyttä Tapro Gemsiin jalokivikysymyksissä, yksityisten tapaamisten varaamisessa, hankintatoiveissa ja sertifiointiasioissa."
+  },
+  "hero": {
+    "eyebrow": "Ota yhteyttä",
+    "heading": "Etsitään sinulle sopiva jalokivi",
+    "imageAlt": "Nainen pitelee aitoa Tapro Gems -safiiria marmoripöydän ääressä"
+  },
+  "options": {
+    "items": [
+      {
+        "title": "Lähetä sähköpostia",
+        "description": "Yleisiin kysymyksiin, jalokivitietoihin ja yritysyhteydenottoihin."
+      },
+      {
+        "title": "WhatsApp",
+        "description": "Nopeisiin kysymyksiin, tuotteiden saatavuuteen ja tapaamispyyntöihin."
+      },
+      {
+        "title": "Varaa yksityinen tapaaminen",
+        "description": "Sovi henkilökohtainen konsultaatio jalokivitoiveidesi läpikäymiseksi."
+      },
+      {
+        "title": "Tukku- ja ammattilaiskyselyt",
+        "description": "Korusuunnittelijoille, keräilijöille, sijoittajille ja tukkuostajille, jotka etsivät tiettyjä jalokiviä tai apua hankintaan."
+      }
+    ]
+  },
+  "introduction": {
+    "heading": "Keskustele suoraan Tapro Gemsin kanssa",
+    "paragraphs": [
+      "Tarjoamme henkilökohtaista palvelua jalokivikysymyksissä, yksityisissä tapaamisissa, hankintatoiveissa ja sertifiointiasioissa.",
+      "Jos etsit tiettyä jalokiveä, kaipaat lisätietoa kokoelmamme kivestä tai haluat sopia yksityisen konsultaation, ota meihin yhteyttä."
+    ]
+  },
+  "privateAppointment": {
+    "imageAlt": "Aitoja safiireja ja rubiineja tummalla samettialustalla",
+    "heading": "Haluatko henkilökohtaisemman konsultaation?",
+    "text": "Varaa yksityinen tapaaminen Tapro Gemsin kanssa ja keskustele suoraan tiimimme kanssa jalokivitoiveistasi, hankintavaihtoehdoista ja sertifiointitarpeistasi.",
+    "cta": "Varaa yksityinen tapaaminen"
+  },
+  "business": {
+    "tagline": "Suomalainen perheyritys, joka myy jalokiviä",
+    "specialising": "Erikoisalanamme aidot Sri Lankan jalokivet",
+    "phoneSuffix": "(puhelin / WhatsApp)",
+    "registered": "Rekisteröity Suomessa"
+  },
+  "social": {
+    "heading": "Pysytään yhteydessä",
+    "text": "Lähetä Tapro Gemsille viesti WhatsAppissa jalokivikysymyksistä ja tapaamispyynnöistä.",
+    "whatsappLabel": "WhatsApp"
+  },
+  "shortIntro": {
+    "text": "Olitpa keräilijä, sijoittaja, korusuunnittelija, tukkuostaja tai yksityisasiakas, autamme sinua löytämään oikean aidon Sri Lankan jalokiven."
+  },
+  "closing": {
+    "headline": "Aidot jalokivet. Henkilökohtainen palvelu. Luotettava opastus.",
+    "text": "Odotamme innolla, että voimme auttaa sinua löytämään seuraavan poikkeuksellisen jalokivesi."
+  }
+}

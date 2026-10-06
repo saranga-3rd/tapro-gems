@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "title": "Tapro Gems | Natural Sri Lankan Gemstones",
+    "description": "Tapro Gems is a Finland-based, family-owned gemstone house offering hand-selected, certified natural Sri Lankan sapphires, rubies and rare gemstones for collectors, investors and jewellery designers across Europe."
+  },
+  "hero": {
+    "imageAlt": "Model wearing a Tapro Gems sapphire necklace, earrings and ring",
+    "heading1": "Natural Gemstones.",
+    "heading2": "Selected for the World.",
+    "paragraph": "Hand-selected, certified natural gemstones from Sri Lanka, presented with European trust.",
+    "explore": "Explore Gemstones",
+    "book": "Book an Appointment"
+  },
+  "brandIntro": {
+    "watermarkTop": "Gemstones",
+    "watermarkBottom": "Selection",
+    "text": "Two generations of expertise, dedicated to bringing the finest natural gemstones from Sri Lanka to discerning collectors across Europe.",
+    "storyLine1": "Our",
+    "storyLine2": "Story"
+  },
+  "finland": {
+    "eyebrow": "Tapro Gems Has Arrived",
+    "title": "Now in Finland.",
+    "cta": "Book an Appointment"
+  },
+  "featured": {
+    "title": "Featured Gemstones",
+    "viewAll": "View All Gemstones"
+  },
+  "why": {
+    "imageAlt": "Woman wearing a Tapro Gems sapphire pendant necklace and earrings",
+    "titleLines": ["Every Stone,", "Honestly Sourced."],
+    "text": "Every gemstone we offer is hand-selected at origin in Sri Lanka and independently certified — a standard upheld by three generations of family ownership.",
+    "keyPoints": ["100% Natural", "Sri Lankan Origin", "Hand Selected", "Certified", "Family Owned"],
+    "cta": "Discover"
+  },
+  "occasion": {
+    "imageAlt": "Woman wearing a Tapro Gems sapphire drop earring",
+    "titleLines": ["Timeless Elegance,", "Any Occasion."],
+    "text": "one exceptional stone, set to accompany every chapter of your life — from boardroom to gala.",
+    "cta": "Explore the Collection"
+  },
+  "banner": {
+    "ariaLabel": "View All Gemstones",
+    "watermark": "brilliance",
+    "imageAlt": "Hand holding a natural sapphire gemstone",
+    "text": "Each stone is hand-selected for its rarity, clarity, and light — brilliance that speaks for itself."
+  },
+  "categories": {
+    "eyebrow": "Explore",
+    "title": "Explore Our Gemstones",
+    "names": {
+      "sapphire": "Sapphire",
+      "ruby": "Ruby",
+      "star-sapphire": "Star Sapphire",
+      "yellow-sapphire": "Yellow Sapphire"
+    }
+  },
+  "story": {
+    "title": "The Tapro Story",
+    "quote": "“Every gemstone carries the story of the earth it was formed in — we simply help it find the hands it belongs to.”",
+    "journeyLine1": "Our",
+    "journeyLine2": "Journey",
+    "imageAlt1": "Raw sapphire crystal in its natural rock matrix",
+    "imageAlt2": "Two hands cupped together holding a polished sapphire"
+  },
+  "collectors": {
+    "imageAlt": "Woman holding a loose natural sapphire",
+    "ringAlt": "Gold ring set with a natural sapphire",
+    "eyebrow": "For Professionals",
+    "title": "Collectors & Professionals",
+    "description": "Private sourcing, wholesale parcels and consultation for collectors, investors and jewellery designers who require a trusted, direct relationship with origin.",
+    "audiences": ["Collectors", "Investors", "Jewellery Designers", "Wholesale Buyers"],
+    "cta": "Speak With Us"
+  },
+  "certification": {
+    "eyebrow": "Certification",
+    "title": "Certification & Authenticity",
+    "description": "Every gemstone is offered with clear provenance. Sri Lankan gem authority certification is standard, with international certificates such as GIA available on request.",
+    "certificates": [
+      {
+        "title": "Sri Lankan Gem Authority",
+        "description": "Local gemmological certification recognised at origin."
+      },
+      {
+        "title": "International Certification",
+        "description": "GIA and other international certificates arranged on request."
+      }
+    ],
+    "cta": "Learn About Certification"
+  },
+  "appointment": {
+    "title": "From Raw Earth to Rare Beauty.",
+    "cta": "Book a Private Appointment",
+    "imageAlt": "Natural sapphires and a ruby resting on ivory satin fabric"
+  },
+  "founder": {
+    "eyebrow": "Founder Story",
+    "title": "Three generations, one origin.",
+    "description": "Tapro Gems began with a family connection to the gem fields of Ratnapura, Sri Lanka. Today, that relationship allows us to hand-select stones directly at origin — passing the same trust and care on to every client we serve, from Helsinki to across Europe."
+  }
+}

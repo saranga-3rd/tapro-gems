@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "title": "Aidot jalokivet | Tapro Gems",
+    "description": "Tutustu Tapro Gemsin sertifioituihin aitoihin Sri Lankan safiireihin, rubiineihin, tähtisafiireihin ja harvinaisiin jalokiviin."
+  },
+  "hero": {
+    "imageAlt": "Nainen tarkastelee aitoa safiiria irtokivien joukosta tarjottimella",
+    "eyebrow": "Kauppa",
+    "heading": "Aidot jalokivet, käsin valittu sinulle",
+    "paragraph": "Tutustu sertifioituihin safiireihin, rubiineihin ja harvinaisiin jalokiviin – jokainen kivi on valittu käsin alkuperämaassa ja odottaa yksityistä konsultaatiota.",
+    "cta": "Varaa yksityinen tapaaminen"
+  },
+  "grid": {
+    "heading": "Kokoelma"
+  },
+  "card": {
+    "carat": "Karaatit",
+    "cut": "Hionta",
+    "colour": "Väri",
+    "origin": "Alkuperä",
+    "view": "Katso: {name}"
+  },
+  "product": {
+    "notFoundTitle": "Jalokiveä ei löytynyt | Tapro Gems",
+    "backToShop": "Takaisin kauppaan",
+    "certification": "Sertifiointi",
+    "bookAppointment": "Varaa tapaaminen",
+    "certificationStandards": "Sertifiointistandardit",
+    "galleryPlayVideo": "Toista video: {name}",
+    "galleryShowImage": "Näytä kuva {n}: {name}"
+  },
+  "categories": {
+    "Sapphire": "Safiiri",
+    "Ruby": "Rubiini",
+    "Star Sapphire": "Tähtisafiiri",
+    "Yellow Sapphire": "Keltainen safiiri",
+    "Rare Gemstone": "Harvinainen jalokivi"
+  }
+}

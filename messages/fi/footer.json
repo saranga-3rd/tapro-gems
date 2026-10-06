@@ -1,0 +1,22 @@
+{
+  "description": "Suomessa toimiva perheyritys, joka tarjoaa 100 % aitoja, käsin valittuja Sri Lankan jalokiviä keräilijöille, sijoittajille ja korusuunnittelijoille ympäri Euroopan.",
+  "explore": "Tutustu",
+  "company": "Tapro Gems",
+  "legal": "Juridiset tiedot",
+  "links": {
+    "shop": "Jalokivikauppa",
+    "collections": "Kokoelmat",
+    "story": "Tarinamme",
+    "certification": "Sertifiointi",
+    "appointments": "Yksityiset tapaamiset",
+    "home": "Etusivu",
+    "shopShort": "Kauppa",
+    "about": "Tietoa meistä",
+    "contact": "Yhteystiedot",
+    "privacy": "Tietosuojaseloste",
+    "cookies": "Evästekäytäntö",
+    "terms": "Käyttöehdot",
+    "shipping": "Toimitus"
+  },
+  "rights": "© {year} Tapro Gems Oy, Suomi. Kaikki oikeudet pidätetään."
+}

@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "title": "About Tapro Gems | Natural Sri Lankan Gemstones",
+    "description": "Tapro Gems is a Finland-based, family-owned gemstone company specialising in 100% natural Sri Lankan gemstones for collectors, investors, jewellery professionals and private clients."
+  },
+  "hero": {
+    "imageAlt": "Woman holding a natural Tapro Gems sapphire",
+    "eyebrow": "About Tapro Gems",
+    "heading": "Natural Sri Lankan Gemstones, Presented with Nordic Refinement"
+  },
+  "intro": {
+    "watermarkNatural": "Natural",
+    "watermarkTrusted": "Trusted",
+    "text": "Tapro Gems is a Finland-based, family-owned gemstone company specialising in 100% natural Sri Lankan gemstones. We bring carefully selected stones to collectors, investors, jewellery professionals and private clients across Europe and international markets."
+  },
+  "story": {
+    "heading": "Our Story",
+    "paragraphs": [
+      "Tapro Gems is a family-owned gem business rooted in Sri Lanka, built on more than 25 years of knowledge, experience, and passion for the country’s precious gemstones. What began as a family business in Sri Lanka has grown through years of dedication and expertise, and is now expanding to Europe, beginning in Finland.",
+      "Our experienced team in Sri Lanka has developed extensive knowledge of the local gem industry and carefully selects each gemstone brought to Finland. From the wide variety of gemstones available in Sri Lanka, we choose only the finest stones that meet our standards for quality, authenticity, color, clarity, cut, and overall character.",
+      "Every gemstone offered by Tapro Gems is selected with care and with the belief that our customers deserve something truly special. Our aim is to bring the finest selections of Sri Lankan gemstones to European customers while maintaining the standards, knowledge, and values that have guided our family business for generations.",
+      "We believe that owning a gemstone should be more than simply owning something beautiful. It should be an experience built on trust, knowledge, quality, transparency, and genuine value.",
+      "Tapro Gems is more than a new business — it is the continuation of a family legacy, bringing the beauty, character, and heritage of Sri Lankan gemstones from our homeland to a new generation of customers across Europe."
+    ]
+  },
+  "team": {
+    "heading": "Our Team",
+    "blocks": {
+      "udith": { "imageAlt": "Uditha De Alwis, Proprietor of On Gem Group" },
+      "founders": { "imageAlt": "The Tapro Gems founding team" }
+    },
+    "members": {
+      "uditha": {
+        "name": "Uditha De Alwis",
+        "title": "Proprietor of On Gem Group and Managing Director of Serene Gem Group",
+        "paragraphs": [
+          "Uditha De Alwis leads On Gem Group and Serene Gem Group, two established names in Sri Lanka’s gem trade. His experience spans sourcing rough and cut stones at origin, working alongside miners and cutters, and supplying gemstones to international buyers.",
+          "That hands-on knowledge of the Ratnapura gem fields and long-standing relationships across the industry shape the standards behind every stone Tapro Gems offers."
+        ]
+      },
+      "chathuranga": {
+        "name": "Chathuranga Weerakoon",
+        "title": "Co-Founder & Marketing Director",
+        "paragraphs": [
+          "Chathuranga guides how Tapro Gems presents its gemstones to European collectors, investors and designers, telling the story of each stone clearly and honestly."
+        ]
+      },
+      "akla": {
+        "name": "Akla De Alwis",
+        "title": "Co-Founder & Operational Director",
+        "paragraphs": [
+          "Akla oversees day-to-day operations, from selecting stones in Sri Lanka to certification, logistics and personal client service in Finland."
+        ]
+      }
+    }
+  },
+  "offer": {
+    "eyebrow": "What We Offer",
+    "heading": "Natural Gemstones for Every Purpose",
+    "intro": "We specialise in natural Sri Lankan gemstones, including sapphires, rubies, star sapphires and other precious stones. Our collection is selected for:",
+    "clientTypes": [
+      "Collectors",
+      "Investors",
+      "Jewellery Designers",
+      "Wholesale Buyers",
+      "Private Clients",
+      "Couples Searching for Unique Gemstones"
+    ],
+    "outro": "We also provide personalised sourcing and appointment-based support for clients looking for something specific."
+  },
+  "natural": {
+    "heading": "100% Natural Sri Lankan Gemstones",
+    "text": "Our gemstones are sourced from Sri Lanka and selected for their natural character, beauty and quality. We do not focus on synthetic or colour-enhanced stones. Each gemstone is presented with clear information about its:",
+    "details": ["Carat", "Cut", "Colour", "Origin", "Certification", "Visual Details"],
+    "imageAlt": "Natural cushion-cut sapphire resting on marble"
+  },
+  "certification": {
+    "eyebrow": "Certification & Trust",
+    "heading": "Clear, Reliable, Confidence-Driven",
+    "paragraphs": [
+      "Transparency is an important part of how we work. Our gemstones are supported by local Sri Lankan certificates and recognised gemstone authority certificates. International certification such as GIA or other recognised laboratories can also be arranged when required.",
+      "Our goal is to make every purchase clear, reliable and confidence-driven."
+    ]
+  },
+  "family": {
+    "heading": "Family-Owned, Personal Service",
+    "paragraphs": [
+      "Tapro Gems is built around personal relationships, trust and long-term value. As a family-owned company, we believe luxury should feel personal rather than distant.",
+      "Whether a client is a collector, investor, designer or first-time gemstone buyer, we aim to provide thoughtful guidance and a tailored experience."
+    ],
+    "imageAlt": "Two people examining a natural sapphire together"
+  },
+  "approach": {
+    "eyebrow": "Our Approach",
+    "heading": "Hand-Selected. Natural. Certified. Personal.",
+    "points": [
+      "Authentic Sri Lankan gemstones",
+      "Carefully selected natural stones",
+      "Transparent communication",
+      "Certified purchases",
+      "Private appointments",
+      "Personalised sourcing",
+      "European-based service"
+    ]
+  },
+  "vision": {
+    "eyebrow": "Our Vision",
+    "quote": "“To build Tapro Gems into a trusted international gemstone brand based in Europe, known for natural Sri Lankan gemstones, transparency and refined personal service — a bridge between Sri Lanka’s gemstone heritage and a modern European luxury experience.”"
+  }
+}

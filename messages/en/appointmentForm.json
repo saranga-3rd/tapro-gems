@@ -1,0 +1,24 @@
+{
+  "eyebrow": "Private Appointment",
+  "heading": "Book a Private Appointment",
+  "intro": "Choose a time to speak with our team about your gemstone requirements, sourcing options and certification needs. We will confirm your appointment by email.",
+  "success": "Thank you — your appointment request has been received. Our team will confirm your time shortly.",
+  "error": "We could not send your request. Please try again or contact us at {phone}.",
+  "fullName": "Full Name",
+  "email": "Email Address",
+  "phone": "Phone Number",
+  "format": "Appointment Format",
+  "selectOption": "Select an option",
+  "date": "Preferred Date",
+  "time": "Preferred Time",
+  "gemstone": "Gemstone of Interest",
+  "noGemstone": "No specific gemstone",
+  "message": "Message",
+  "sending": "Sending…",
+  "submit": "Request Appointment",
+  "formats": [
+    "In person — Tampere",
+    "Video call",
+    "Phone call"
+  ]
+}
